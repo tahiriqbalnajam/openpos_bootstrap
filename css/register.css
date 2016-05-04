@@ -1,0 +1,205 @@
+#register_wrapper
+{
+	float:left;
+	width:70%;
+	font-size:13px;
+}
+#mode_form
+{
+	margin-bottom:10px;
+}
+
+#show_suspended_sales_button
+{
+	position:absolute;
+	top:3px;
+	right:4px;	
+}
+
+#mode_form span
+{
+	font-weight:bold;
+}
+
+#add_item_form
+{
+	position:relative;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7abcff+0,60abf8+44,4096ee+100;Blue+3D+%2314 */
+background: rgb(122,188,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(122,188,255,1) 0%, rgba(96,171,248,1) 44%, rgba(64,150,238,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 ); /* IE6-9 */
+
+	width:100%;
+	padding: 8px 0px 8px 0px;
+	margin-bottom:5px;
+	border-radius:5px;
+	
+}
+
+#add_item_form input
+{
+
+ 	
+}
+
+#item_label,#customer_label
+{
+	font-weight:bold;
+	font-size:20px;
+	line-height:32px;
+}
+
+#add_item_form label
+{
+	margin: 0px 5px 0px 5px;
+}
+
+#register
+{
+	position:relative;
+	width:100%;
+	padding:0px;
+	border-collapse:collapse;	
+}
+
+#register th
+{	
+	background-color:#ccc;
+	padding:5px;
+	text-align:center;
+	color:#000;
+}
+
+#register td
+{
+	background-color:#EEEEEE;
+	padding:3px;
+	text-align:center;
+}
+
+#overall_sale
+{
+	float:left;
+	margin-left:4px;
+	width:28%;
+	padding:5px;
+	font-size:13px;
+	border-radius:5px;
+	
+}
+#overall_receive
+{
+	float:left;
+	margin-left:4px;
+	width:28%;
+	padding:5px;
+	font-size:13px;
+	border-radius:5px;
+	
+	
+}
+
+#sale_details
+{
+	position:relative;
+	width:100%;
+	margin-top:5px;
+	background-color:#eee;
+	border-radius:5px;
+	border:4px;
+	padding:5px;
+}
+#receive_details
+{
+	position:relative;
+	width:100%;
+	margin-top:5px;
+	background-color:#eee;
+	border-radius:5px;
+	border:4px;
+	padding:20px;
+}
+#finish_sale
+{
+	position:relative;
+}
+#finish_receive
+{
+	position:relative;
+	background-color:#F0ECC6;
+	border-radius:5px;
+	padding:10px;
+	
+}
+
+#payment_details
+{
+	float:left;
+	width:100%;
+	margin-top:5px;
+	margin-bottom:0px;
+	clear:both;
+	padding:5px 5px 5px 10px;
+	border-radius:5px;
+}
+
+#Cancel_sale {
+  background: #eee none repeat scroll 0 0;
+  border-radius: 5px;
+  clear: both;
+  float: left;
+  margin-top: 5px;
+  padding: 5px;
+  width: 100%;
+}
+#suspended_sales_table
+{
+	width:100%;
+}
+
+#credit_card_form fieldset 
+{
+	overflow: auto;
+	border: 0;
+	margin: 0;
+	padding: 0; 
+}
+
+#credit_card_form fieldset div 
+{
+	float: left; 
+}
+
+#credit_card_form fieldset.centered div 
+{
+	text-align: center; 
+}
+
+#credit_card_form label 
+{
+	display: block;
+	margin-bottom: 5px; 
+}
+
+#credit_card_form input.text 
+{
+	border: 1px solid #bfbab4;
+	margin: 0 4px 8px 0;
+}
+
+#sales_overview
+{
+	position:absolute;
+	top:3px;
+	right:99px;
+}
+.select_customer {
+    border-radius: 5px;
+    padding: 5px;
+}
+#finish_sale_button
+{
+	margin-top:10px !important;
+}
